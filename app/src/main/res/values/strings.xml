@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Evaluacion2</string>
+    <string name="titulo">The Bear</string>
+    <string name="seleccione_su_pedido">Seleccione su pedido:</string>
+    <string name="retiro_en_local">Retiro en local</string>
+    <string name="entrega_a_domicilio">Entrega a domicilio $2.500</string>
+    <string name="desayunos">Desayunos:</string>
+    <string name="bebestibles">Bebestibles:</string>
+    <string name="calcular">calcular</string>
+    <string name="pagar">pagar</string>
+    <string name="totalapagar">Total a pagar:</string>
+
+    <string name="todo1">TODO1</string>
+</resources>

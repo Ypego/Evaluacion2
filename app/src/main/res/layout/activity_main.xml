@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cafe_al_paso"
+            android:textColor="#009688"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/pedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seleccione_su_pedido"
+            android:textColor="#009688"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/retiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/retiro_en_local" />
+
+            <RadioButton
+                android:id="@+id/domicilio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entrega_a_domicilio" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/desayunos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desayunos"
+            android:textColor="#009688"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:contentDescription="@string/todo1"
+            app:srcCompat="@drawable/desayunos" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cbd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Paila de Hevos $2.900" />
+
+            <CheckBox
+                android:id="@+id/cbd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tostadas con Palta $3.500" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cbd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Selladito Jamon/Queso $3.500" />
+
+            <CheckBox
+                android:id="@+id/cbd4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tostadas mantequilla $2.600" />
+        </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btncalcular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="calcular"
+                android:text="@string/calcular"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="#009688"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btnpagar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="pagar"
+                android:text="@string/pagar"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="#F44336"
+                tools:ignore="TextContrastCheck" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/totalapagar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="24sp" />
+
+</LinearLayout>
