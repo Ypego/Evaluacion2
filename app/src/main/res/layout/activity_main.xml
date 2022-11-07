@@ -7,15 +7,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-        <TextView
-            android:id="@+id/titulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/cafe_al_paso"
-            android:textColor="#009688"
-            android:textSize="40sp"
-            android:textStyle="italic" />
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/titulo"
+        android:textColor="#009688"
+        android:textSize="40sp"
+        android:textStyle="italic" />
 
         <TextView
             android:id="@+id/pedido"
