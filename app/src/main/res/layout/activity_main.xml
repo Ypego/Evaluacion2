@@ -68,7 +68,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Paila de Hevos $2.900" />
+                android:text="Paila de Huevos $2.900" />
 
             <CheckBox
                 android:id="@+id/cbd2"
